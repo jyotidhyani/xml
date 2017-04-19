@@ -1,0 +1,50 @@
+we can have entity refrence just aas copy write
+&#169 for copywrite
+processing instruction how this instruction wud be processed
+
+rules for creating xml elements
+1. can't begin wid no and can wid _
+2. can't use xml_name
+3. meaning full name
+4. doctor:patient can be used but not best practice
+
+we will be using arrayList which cannot be parsed and we are givinfgthe hint and treated as the information section that we are conveying the information and cannot be displayed on browser
+
+
+validation--> we bneed to parse the document.. xml structure and xml types
+
+4 diff parser 
+1. domparser
+2. saxparser
+3. staxparser
+4. vtdparser
+
+non-validating parser will check the well formdness
+
+schema
+--> provide us the rules need to be followed.
+--> if matching then (xml wid schema), then valid
+--> chrome does not do that
+--> provides the datatype
+--> provides the sequence
+
+dtd
+--> pcdata is parsable data
+--> cdata is non
+--> checks the grammer rules iwth xml docx
+--> how contents need to be nested,times it can be repeated
+
+{{prepration}}
+1. internal dtd
+2. external dtd (p)
+
+eg:
+schedule.dtd --> dtd
+schedule.xml --> data
+
+<!DOCTYPE (same as link tag), if used 
+
+--> public identifier location -> available in uri na dnot in folder
+where uri is logical namespace where dtd would be available. But actually is is present in (looks for the jar file where this .xsd is prersnt.
+http wala path can be anything but it jaha par jar file waha par .xsd ko dhundega (when .xsd file has same name) we need to make a logical name
+--> when we have same file name , now to avoid ambigutiy that which tag belongs to which we give the uri 
